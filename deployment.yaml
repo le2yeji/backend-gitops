@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: yyazi/springboot_crud_security_prd
+        image: yyazi/springboot_crud_security_keycloak_prd
         imagePullPolicy: Always
         env:
           - name: SPRING_PROFILES_ACTIVE
