@@ -15,10 +15,10 @@ spec:
     spec:
       containers:
       - name: backend
-        image: ghcr.io/kt-cloudnative/springboot_crud_security:v1
+        image: yyazi/springboot_crud_security_prd
         imagePullPolicy: Always
         env:
           - name: SPRING_PROFILES_ACTIVE
-            value: "local"
+            value: "prd"
         ports:
-        - containerPort: 8080
+        - containerPort: 9080
